@@ -1,0 +1,19 @@
+
+.detail{
+    /* background-color: rgba(255, 99, 71, 0.154); */
+    min-height: 200px;
+    margin: 20px 10px;
+    padding: 20px;
+    min-width: 200px;
+    text-align: center;
+}
+.detailNew{
+    min-height: 200px;
+    min-width: 330px;
+    margin: 20px 10px;
+    text-align: center;
+    padding: 20px;
+}
+h2{
+    font-size: 20px;
+}

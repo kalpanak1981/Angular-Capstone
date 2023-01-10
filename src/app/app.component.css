@@ -1,0 +1,18 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background-image: linear-gradient(to bottom right, yellow,#c3cf7e);
+    min-height: 900px;
+}
+.btn{
+    margin-left: 5px;
+    color: rgb(193, 76, 76);
+    border-color: rgb(163, 46, 46);
+}
+h1{
+    color: green;
+    text-shadow: 5px 5px 10px rgb(47, 32, 32);
+}
+.btn:hover{
+    background-color: rgb(122, 222, 170);
+}

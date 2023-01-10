@@ -1,0 +1,24 @@
+<body>
+  
+<div class="container">
+  
+    <!-- ------------------nav------------------- -->
+    <nav class="navbar bg-transparent">
+      <div class="container-fluid">
+        <a class="navbar-brand" routerLink="/"><h1>Capstone.Pro</h1></a>
+        <form class="d-flex" role="search">
+          
+          <button class="btn btn-outline-success" type="submit"routerLink="/home">Home</button>
+          <button class="btn btn-outline-success" type="submit"routerLink="/onbording">Onbording</button>
+          <button class="btn btn-outline-success" type="submit"routerLink="/creditcheck">creditcheck</button> 
+
+        </form>
+      </div>
+    </nav>
+    <hr>
+    <div class="row">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
+</body>
